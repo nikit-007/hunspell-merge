@@ -1,5 +1,10 @@
-http://habrahabr.ru/post/158441/
-https://code.google.com/p/hunspell-merge/
+* http://habrahabr.ru/post/158441/
+* https://code.google.com/p/hunspell-merge/
+
+Программа-с-хабра для соединения словарей Hunspell. Планирую перепилить под наш курсач. Отличается от выложенной на гуглекоде: 
+* выставил кодировку проекта UTF-8, 
+* убрал какие-то непонятки с символами, мешающие компиляции,
+* убрал из build.xml строчку, вроде как приказывающую компиличть как Java 1.6, что выдавала warning.
 
 2012-12-09 v.1.4
 + Added: Words count in dictionaries table
